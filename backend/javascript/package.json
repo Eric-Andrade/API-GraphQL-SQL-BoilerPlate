@@ -1,0 +1,38 @@
+{
+  "name": "semillasql",
+  "version": "1.0.0",
+  "description": "APIGraphQL JavaScript SQL: GraphQL, ApolloServer, MySQL, Express, Reactjs, React Native, Redux (Authentication token and Sign up)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=dev nodemon --exec babel-node index.js",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write '**/*.js'"
+  },
+  "author": "Eric Torres Andrade <erictorresandrade.1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "cross-env": "^5.0.5",
+    "express": "^4.15.4",
+    "graphql": "^0.11.2",
+    "graphql-date": "^1.0.3",
+    "graphql-subscriptions": "^0.4.4",
+    "graphql-tools": "^1.2.2",
+    "jsonwebtoken": "^7.4.3",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.8.0",
+    "serve-favicon": "^2.4.3",
+    "subscriptions-transport-ws": "^0.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.5.0",
+    "eslint-config-equimper": "^2.2.1",
+    "eslint-config-prettier": "^2.3.0",
+    "prettier": "^1.6.1"
+  }
+}

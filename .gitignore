@@ -1,0 +1,8 @@
+backend/javascript/node_modules/**/*
+yarn.lock
+.DS_Store
+
+
+frontend/mobile/ice-cream/node_modules/**/*
+frontend/mobile/ice-cream/.expo/*
+npm-debug.*

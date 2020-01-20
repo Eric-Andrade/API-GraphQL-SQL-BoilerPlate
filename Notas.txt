@@ -1,0 +1,22 @@
+Run services
+  run APIGraphQL: backend -> javascript: yarn start
+  run App: frontend -> mobile: exp start
+    run emulator ios/android: frontend -> mobile: exp ios/android
+    run rnDebugger: yarn debug
+
+Notas {
+  Error: 
+  Solución: 
+  Consola: 
+  Links:
+
+  Error: 
+  Solución: 
+  Consola: 
+  Links:
+
+  Error: 
+  Solución: 
+  Consola: 
+  Links:
+}
