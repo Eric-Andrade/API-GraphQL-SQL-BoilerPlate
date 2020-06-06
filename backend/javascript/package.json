@@ -11,7 +11,7 @@
   "author": "Eric Torres Andrade <erictorresandrade.1@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^1.1.2",
+    "apollo-server-express": "^2.14.2",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.17.2",
     "cross-env": "^5.0.5",
